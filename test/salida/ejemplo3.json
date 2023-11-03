@@ -1,0 +1,13 @@
+{
+  "cabecera": null,
+  "contenido": [
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Personaje"
+      ],
+      "modo": "",
+      "dialogo": "algo"
+    }
+  ]
+}

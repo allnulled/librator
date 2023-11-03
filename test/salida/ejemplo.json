@@ -1,0 +1,56 @@
+{
+  "cabecera": [
+    {
+      "nombre": "Título",
+      "valor": "Libro X"
+    },
+    {
+      "nombre": "Subtítulo",
+      "valor": "Un libro X"
+    },
+    {
+      "nombre": "Autor",
+      "valor": "allnulled"
+    }
+  ],
+  "contenido": [
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Narrador"
+      ],
+      "modo": "",
+      "dialogo": "Bienvenidos, amigos. Esta historia comienza en un lugar muy lejano."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Protagonista"
+      ],
+      "modo": "",
+      "dialogo": "Ey. Explícalo bien al menos. ¿No crees que es mejor emplazar la historia?"
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Narrador"
+      ],
+      "modo": "",
+      "dialogo": "Está bien. Veremos."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Perro mayor",
+        "Perro menor",
+        "Perro en discordia"
+      ],
+      "modo": "al unísono",
+      "dialogo": "¡Guau!"
+    },
+    {
+      "tipo": "narrativa",
+      "narrativa": "Todo esto sucedía en un entorno de montañas y nubes, frente al mar.\nLa narrativa sigue siendo el texto actual."
+    }
+  ]
+}

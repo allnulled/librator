@@ -1,0 +1,22 @@
+{
+  "name": "librator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/librator.nodejs.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "serve": "npx http-server -c-1 docs -o index.html",
+    "build": "npm run build-for-nodejs && npm run build-for-browser && npm run export",
+    "build-for-nodejs": "npx pegjs -o src/librator.nodejs.js src/librator.pegjs",
+    "build-for-browser": "npx pegjs -o src/librator.globals.js --format globals --export-var Librator src/librator.pegjs",
+    "build-and-test": "npm run build && npm run test",
+    "test": "node test/test",
+    "export": "cp src/librator.globals.js docs/lib/librator.globals.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

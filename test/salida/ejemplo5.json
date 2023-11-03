@@ -1,0 +1,33 @@
+{
+  "cabecera": null,
+  "contenido": [
+    {
+      "tipo": "narrativa",
+      "narrativa": "Narrativa"
+    },
+    {
+      "tipo": "narrativa",
+      "narrativa": "Narrativa."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Personaje"
+      ],
+      "modo": "",
+      "dialogo": "OK!"
+    },
+    {
+      "tipo": "narrativa",
+      "narrativa": "Más narrativa."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Personaje"
+      ],
+      "modo": "",
+      "dialogo": "Otra vez OK!"
+    }
+  ]
+}

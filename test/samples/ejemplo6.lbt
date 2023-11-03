@@ -1,0 +1,10 @@
+@Personaje: {
+  [Nombre:]     Protagonista
+  [Ciudad:]     Hielo
+  [Nacimiento:] 5 de enero de 1991
+  [Edad:]       33
+}
+
+@Suceso: {
+
+}

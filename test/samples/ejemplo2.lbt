@@ -1,0 +1,29 @@
+---------------------------------
+[Título]     Libro de ejemplo
+[Subtítulo]  Un libro de ejemplko
+[Autor]      allnulled
+---------------------------------
+
+@{ Narrador } dice: Esto es una sentencia de diálogo.
+Puede contener múltiples líneas.
+Para saltar a la siguiente sentencia hay que dejar una línea en blanco.
+Una línea en blanco como la que sigue.
+
+@{ Narrador } dice:
+Esto también es una sentencia de diálogo.
+Puede contener múltiples líneas.
+Lo único que la primera línea está en blanco.
+Pero funciona igual que la anterior.
+
+@{ Narrador } dice calmadamente:
+El «calmadamente» es el «modo» de la sentencia.
+Por lo demás, no hay ninguna novedad.
+
+@{ Protagonista }+@{ Perrito fiel }+@{ Gatito majete } dicen:
+Oye, di algo de nosotros también.
+Una intervención de diálogo puede tener varios actores al mismo tiempo, como esta.
+Por lo demás, funciona igual, asi'que no hay ninguna novedad.
+
+> Finalmente, esto es una intervención narrativa. Esto es una explicación que se da independientemente de los personajes.
+Puede contener múltiples líneas también.
+Y también finaliza con una línea en blanco o el final del documento.

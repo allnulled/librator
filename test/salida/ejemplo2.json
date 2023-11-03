@@ -1,0 +1,56 @@
+{
+  "cabecera": [
+    {
+      "nombre": "Título",
+      "valor": "Libro de ejemplo"
+    },
+    {
+      "nombre": "Subtítulo",
+      "valor": "Un libro de ejemplko"
+    },
+    {
+      "nombre": "Autor",
+      "valor": "allnulled"
+    }
+  ],
+  "contenido": [
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Narrador"
+      ],
+      "modo": "",
+      "dialogo": "Esto es una sentencia de diálogo.\nPuede contener múltiples líneas.\nPara saltar a la siguiente sentencia hay que dejar una línea en blanco.\nUna línea en blanco como la que sigue."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Narrador"
+      ],
+      "modo": "",
+      "dialogo": "Esto también es una sentencia de diálogo.\nPuede contener múltiples líneas.\nLo único que la primera línea está en blanco.\nPero funciona igual que la anterior."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Narrador"
+      ],
+      "modo": "calmadamente",
+      "dialogo": "El «calmadamente» es el «modo» de la sentencia.\nPor lo demás, no hay ninguna novedad."
+    },
+    {
+      "tipo": "diálogo",
+      "actores": [
+        "Protagonista",
+        "Perrito fiel",
+        "Gatito majete"
+      ],
+      "modo": "",
+      "dialogo": "Oye, di algo de nosotros también.\nUna intervención de diálogo puede tener varios actores al mismo tiempo, como esta.\nPor lo demás, funciona igual, asi'que no hay ninguna novedad."
+    },
+    {
+      "tipo": "narrativa",
+      "narrativa": "Finalmente, esto es una intervención narrativa. Esto es una explicación que se da independientemente de los personajes.\nPuede contener múltiples líneas también.\nY también finaliza con una línea en blanco o el final del documento."
+    }
+  ]
+}

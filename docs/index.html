@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librator | Editor</title>
+    <link rel="stylesheet" href="lib/codemirror.css">
+    <script src="lib/codemirror.js"></script>
+    <script src="lib/librator.globals.js"></script>
+    <style>
+        html, body {
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
+        .CodeMirror {
+            border: 1px solid #333;
+        }
+        .CodeMirror * {
+            font-size: 9px;
+        }
+        .CodeMirror-gutters {
+            background-color: #333;
+            color: white;
+        }
+        .panel_de_botones_superior {
+            position: fixed;
+            top: 0;
+            right: 0;
+            text-align: right;
+        }
+        #error {
+            background-color: red;
+            color: white;
+            font-family: monospace;
+            font-size: 9px;
+        }
+        #success {
+            background-color: green;
+            color: white;
+            font-family: monospace;
+            font-size: 9px;
+            white-space: pre;
+        }
+        #titulo {
+            font-family: monospace;
+            font-size: 15px;
+            background-color: #333;
+            color: white;
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo">Librator | Editor online</div>
+    <textarea id="entrada_de_texto"></textarea>
+    <div class="panel_de_botones_superior">
+        <button onclick="validar_texto()">Validar</button>
+    </div>
+    <div id="error"></div>
+    <div id="success"></div>
+    <script>
+        window.addEventListener("load", function() {
+            const textarea_entrada = document.getElementById("entrada_de_texto");
+            const codemirror_entrada = CodeMirror.fromTextArea(textarea_entrada, {
+                lineNumbers: true
+            });
+            window.validar_texto = function() {
+                try {
+                    const texto_entrada = codemirror_entrada.getValue();
+                    const texto_salida = window.Librator.parse(texto_entrada);
+                    document.getElementById("error").textContent = "";
+                    document.getElementById("success").textContent = JSON.stringify(texto_salida, null, 2);
+                } catch(error) {
+                    document.getElementById("success").textContent = "";
+                    document.getElementById("error").textContent = error.message;
+                }
+            };
+        });
+    </script>
+</body>
+</html>

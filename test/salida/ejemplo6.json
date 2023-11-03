@@ -1,0 +1,15 @@
+{
+  "cabecera": null,
+  "contenido": [
+    {
+      "tipo": "apunte",
+      "cosa": "Personaje",
+      "valor": "[Nombre:]     Protagonista\n  [Ciudad:]     Hielo\n  [Nacimiento:] 5 de enero de 1991\n  [Edad:]       33"
+    },
+    {
+      "tipo": "apunte",
+      "cosa": "Suceso",
+      "valor": ""
+    }
+  ]
+}

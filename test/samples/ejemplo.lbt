@@ -1,0 +1,16 @@
+---------------------------------
+[Título]     Libro X
+[Subtítulo]  Un libro X
+[Autor]      allnulled
+---------------------------------
+
+@{ Narrador } dice: Bienvenidos, amigos. Esta historia comienza en un lugar muy lejano.
+
+@{ Protagonista } dice: Ey. Explícalo bien al menos. ¿No crees que es mejor emplazar la historia?
+
+@{ Narrador } dice: Está bien. Veremos.
+
+@{ Perro mayor }+@{ Perro menor }+@{ Perro en discordia } dicen al unísono: ¡Guau!
+
+> Todo esto sucedía en un entorno de montañas y nubes, frente al mar.
+La narrativa sigue siendo el texto actual.
