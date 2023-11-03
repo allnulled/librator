@@ -2,6 +2,12 @@
 
 Lenguaje de programación para escribir novelas. Sí, otro más.
 
+## Versión online
+
+Puedes ir directamente a la versión online aquí:
+
+ - [https://allnulled.github.io/librator/](https://allnulled.github.io/librator/)
+
 ## Instalación
 
 ```sh
